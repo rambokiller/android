@@ -52,6 +52,7 @@ table {
 body{
 	margin:auto;
 	width:80%;
+	background:white;
 }
 
 .moonface{
@@ -59,7 +60,7 @@ body{
 	margin-top:100px;
 	height:150px;
 	width:300px;
-	background-color:#A5C63B;
+	background-color:black;
 	border-top-left-radius: 300px;
 	border-top-right-radius: 300px;
 }
@@ -72,6 +73,7 @@ body{
 	border-top-left-radius:5px;
 	border-top-right-radius: 5px;
 	background-color:#A5C63B; 
+	z-index:-1;
 	
 }
 
@@ -91,27 +93,80 @@ body{
 	bottom:30px;
 }
 
+.eyes{
+	position:relative;
+	margin:auto;
+	height:30px;
+	width:30px;
+	background-color:red; 
+	border-radius: 15px;
+}
 
+.eyesRight
+{
+	float:right;
+	right:450px;
+	bottom:80px;
+}
+.eyesLeft
+{
+	float:left;
+	left:450px;
+	bottom:80px;
+}
 
+.arms
+{
+	position:absolute;
+	margin:auto;
+	height:200px;
+	width:60px;
+	border-bottom-left-radius:35px;
+	border-bottom-right-radius:35px;
+	border-top-left-radius:35px;
+	border-top-right-radius:35px;
+	background-color:black; 	
+	margin-top:10px;
+}
+.armsLeft{
+	margin-left:300px;
 
+}
+.armsRight{
+	right:430px;
+}
+.body
+{
+	position:relative;
+	clear:both;
+	margin:auto;
+	top:-15px;
+	width:300px;
+	height:300px;
+	border-bottom-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background-color:black; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.legs{
+	z-index: -1;
+	position:relative;
+	margin:auto;
+	height:100px;
+	width:70px;
+	border-bottom-left-radius:35px;
+	border-bottom-right-radius:35px;
+	background-color:black; 	
+}
+.legsRight
+{
+	float:right;
+	right:430px;
+	bottom:30px;
+}
+.legsLeft
+{
+	float:left;
+	left:430px;
+	bottom:30px;
+}
