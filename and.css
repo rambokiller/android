@@ -57,11 +57,39 @@ body{
 .moonface{
 	margin:auto;
 	margin-top:100px;
-	height:200px;
-	width:400px;
+	height:150px;
+	width:300px;
 	background-color:#A5C63B;
+	border-top-left-radius: 300px;
+	border-top-right-radius: 300px;
 }
 
+.ant{
+	position:relative;
+	margin:auto;
+	height:150px;
+	width:10px;
+	border-top-left-radius:5px;
+	border-top-right-radius: 5px;
+	background-color:#A5C63B; 
+	
+}
+
+.transRight
+{
+	transform: rotate(30deg);
+	float:right;
+	right:470px;
+	bottom:30px;
+}
+
+.transLeft
+{
+	transform: rotate(330deg);
+	float:left;
+	left:470px;
+	bottom:30px;
+}
 
 
 
